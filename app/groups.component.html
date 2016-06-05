@@ -1,0 +1,18 @@
+<h1>Groups</h1>
+
+<table class="table table-striped table-hover">
+  <thead>
+    <tr>
+      <td></td>
+      <td>#</td>
+      <td>Name</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let group of groupsList; let i = index">
+      <td><img src="{{group.photo_50}}"></td>
+      <td>{{i + 1}}</td>
+      <td><a [routerLink]="['Group', {id: group.id}]">{{group.name}}</a></td>
+    </tr>
+  </tbody>
+</table>

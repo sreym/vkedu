@@ -1,0 +1,49 @@
+{
+  "name": "angular2-quickstart",
+  "main": "index.html",
+  "version": "1.0.0",
+  "window": {
+    "title": "Dummy demo",
+    "icon": "icon.png",
+    "toolbar": true,
+    "frame": true,
+    "width": 700,
+    "height": 400,
+    "position": "mouse",
+    "min_width": 800,
+    "min_height": 600
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "postinstall": "typings install",
+    "typings": "typings"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.1",
+    "@angular/compiler": "2.0.0-rc.1",
+    "@angular/core": "2.0.0-rc.1",
+    "@angular/http": "2.0.0-rc.1",
+    "@angular/platform-browser": "2.0.0-rc.1",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.1",
+    "@angular/router": "2.0.0-rc.1",
+    "@angular/router-deprecated": "2.0.0-rc.1",
+    "@angular/upgrade": "2.0.0-rc.1",
+    "angular2-in-memory-web-api": "0.0.10",
+    "async": "^2.0.0-rc.5",
+    "bootstrap": "^3.3.6",
+    "core-js": "^2.4.0",
+    "jquery": "^2.2.4",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "^0.6.12"
+  },
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
